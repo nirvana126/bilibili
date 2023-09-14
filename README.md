@@ -3,8 +3,8 @@
 一套模仿B站的弹幕视频网站后端项目，主要包括用户中心、用户订阅、权限控制、视频投稿、视频搜索、弹幕系统 等功能模块。
 
 ## 项目架构
+![image](https://github.com/nirvana126/bilibili/assets/118111806/52a05fdd-a47c-4593-b86d-d01ffbf3541a)
 
-![](D:\Mycode\github-project\bilibili-project\img\image-20230914212248181.png)
 
 ## 技术选型
 
@@ -25,7 +25,8 @@
 
 ## 核心功能------弹幕系统架构
 
-![](D:\Mycode\github-project\bilibili-project\img\image-20230914215952081.png)
+![image](https://github.com/nirvana126/bilibili/assets/118111806/fa5fd672-944a-4674-82c0-916f0cbb5e8b)
+
 
 - 场景分析：用户通过浏览器进入仿b站项目，在视频详情页可以发送弹幕。
 - 前端生成弹幕信息：用户点击发送弹幕后，前端生成一个弹幕相关的json数据，需要将该数据发送给后端进行处理。
